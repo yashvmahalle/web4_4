@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panda Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+        }
+
+        h2 {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 15px;
+        }
+
+        .image-container img {
+            width: 200px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .info h3 {
+            font-family: 'Courier New', Courier, monospace;
+            color: #B4B333;
+            margin: 10px 0;
+        }
+
+        .info p {
+            margin: 5px 0;
+        }
+
+        .stars {
+            margin-top: 10px;
+        }
+
+        .stars span {
+            font-size: 24px;
+            color: gold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="card">
+            <h1>Title</h1>
+            <h2>Panda Card</h2>
+            <div class="image-container">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSQ93o6UvjOqGl5tI88le4CNQ9NAduad_Xgw&s" alt="Panda Image">
+            </div>
+            <div class="info">
+                <h3>John Doe</h3>
+                <p>Computer Science 1</p>
+                <p>Computer Science 2</p>
+                <p>Year: 3</p>
+                <div class="stars">
+                    <span>★</span><span>★</span><span>★</span><span>★</span><span>☆</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
